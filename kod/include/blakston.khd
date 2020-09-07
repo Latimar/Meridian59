@@ -847,7 +847,8 @@
    RID_OLD_MARION = 9001
    RID_OLD_BAR_NORTH = 9002
    RID_OLD_BAR_SOUTH = 9003
-
+   RID_LATTESTROOM = 9005
+   
    % Rentable Rooms 10000+
    RID_RENTABLE_START = 10000
 
@@ -1012,6 +1013,7 @@
    RID_OMAR = 9001
    RID_OBARLN = 9002
    RID_OBARLS = 9003
+   
 
    %%% Room flags
 

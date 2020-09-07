@@ -1,0 +1,36 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+LatTestRoom is Room
+
+
+constants:
+
+   include blakston.khd
+
+resources:
+
+   room_lattestroom = lattestroom.roo
+   room_name_lattestroom = "Lat Test Room"
+
+classvars:
+
+   vrName = room_name_lattestroom
+
+   viTeleport_row = 4
+   viTeleport_col = 5
+
+   viTerrain_type = TERRAIN_MYSTICAL
+
+properties:
+
+   prRoom = room_lattestroom	
+   piRoom_num = RID_LATTESTROOM
+
+   piBaseLight = LIGHT_NICE
+   piOutside_factor = OUTDOORS_3
+
+
+messages:
+
+
+end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
